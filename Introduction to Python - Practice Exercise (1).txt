@@ -1,0 +1,396 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "76190c46-ded6-41b0-af5b-c6b50dd8f1ff",
+   "metadata": {},
+   "source": [
+    "# Tasks \n",
+    "1. Variable Declaration and Data Types\n",
+    "2. String Manipulation\n",
+    "3. Basic Operations\n",
+    "4. Data Collections\n",
+    "5. Expression Combination"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2c5f361d-9429-47d3-8ec8-00dcfbae2c15",
+   "metadata": {},
+   "source": [
+    "#1 Task"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "d8272f09-958c-49c3-aacd-6bda5fb5b58b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "int_var = 100"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "dadf6902-2c7d-491e-9a03-5461a941b43f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "float_var = 1.2\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f53095a7-d073-42da-9c97-ddd3c6179687",
+   "metadata": {},
+   "source": [
+    "str_var = \"University1\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "8ae79b45-d96a-45c9-bbcb-9d6b2021cc07",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100 <class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(int_var, type(int_var))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "ed34d9e5-462d-4d80-b724-4d2907d9593e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1.2 <class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(float_var, type(float_var))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "f2ffeffa-6b4b-4e9f-bb8c-1a879e9b78a9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "University1 <class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(str_var, type(str_var))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "8d3a1efe-c145-4de8-8036-f8d05b11853d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "bool_var = True"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "afe588b3-343c-4492-86dc-a203869e3c81",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True <class 'bool'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(bool_var, type(bool_var))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "641866c5-87b8-49a3-8753-37cba89c1b55",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#2 Task"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "d905ad93-0532-487b-9693-dcf3cced7efd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "sample_string = \"Hello, Lela!\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "e289ad3d-6cf3-48c2-9633-88e72535e034",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello, lela!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(sample_string.lower())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "e402bad6-3b77-466b-bdda-1c33675dd295",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hi, Lela!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(sample_string.replace(\"Hello\", \"Hi\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "fef3a259-8cd9-4322-956e-62a8be51d8e4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Hello', ' Lela!']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(sample_string.split(\",\"))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "aae10146-e574-47d4-9586-17171f7cfd19",
+   "metadata": {},
+   "source": [
+    "#3 Task"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "b5e7a3a2-0175-49e4-9be3-2af01f3c3d53",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a, b = 10, 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "665f3158-9cbc-4148-82fa-bc94a555baca",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a + b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "cece9085-3dc8-4524-8089-bf194e09fd9b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a > b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "0e609f90-7782-41f0-97ad-5171219a1135",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (a <= b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "f0c2d41e-3932-41ed-bfc7-307403144339",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a > 10 and b < 5, not (a == b))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d9485062-b7c8-424d-ba65-e54ec89d130c",
+   "metadata": {},
+   "source": [
+    "#4 Task"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 85,
+   "id": "035b7aa1-b280-40b3-9a9c-f3b7d13881be",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "student_list = [\"mary\", \"john\" \"lela\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 93,
+   "id": "6fdff3ca-b1b2-407a-a17f-edd7fb5a69d9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "my_dict = {\"name\": \"john\", \"age\": 2}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "id": "7a91fc8b-bcf2-4931-be0d-103a97ffef13",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "my_tuple = (12, 20, 50)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "56a340ec-c396-435c-bfaa-1a3ae7dbc436",
+   "metadata": {},
+   "source": [
+    "Notes for TA: I've worked very hard to get the elements to work and could not run the results -plz advise"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d64748a6-4340-490a-b9a2-be8224049232",
+   "metadata": {},
+   "source": [
+    "#5 Task"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 101,
+   "id": "f90ee304-a08c-4a95-a133-d1d7ae8c393c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "int_var = 100\n",
+    "a = 20\n",
+    "b = 40\n",
+    "sample_string = \"hello\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e8fe7cb3-7b81-41ec-a905-42ad2e350e36",
+   "metadata": {},
+   "source": [
+    "Notes for TA: Unable to run code > Python is still running in the background plz advise on fix"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.10"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
+
